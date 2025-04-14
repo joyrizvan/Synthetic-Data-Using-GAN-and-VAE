@@ -1,1 +1,1 @@
-# Synthetic-Data-Using-GAN-and-VAE
+# GAN-vs-VAE-synthetic-data-comparison
