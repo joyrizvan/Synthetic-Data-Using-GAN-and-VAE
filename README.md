@@ -29,10 +29,16 @@ Models trained on synthetic + real (augmented) data achieve better performance t
 CTGAN-generated synthetic data alone can outperform real data in some cases.
 
 ### Project Structure
-<pre><code>```├── data/ │ ├── original/ # Real training dataset │ ├── synthetic/ # Generated synthetic data 
+<pre><code>```├── data/ 
+  │ ├── original/ # Real training dataset 
+  │ ├── synthetic/ # Generated synthetic data 
   ├── model/ # Saved .pkl models 
-  ├── services/ │ ├── preprocess.py # Preprocessing and transformation logic │ ├── churn_model.py # Training logic for ML models │ ├── evaluation.py # Model evaluation functions ├── notebooks/ # Jupyter notebooks for EDA & 
-  results ├── data_generator.py # Script to generate balanced synthetic data 
+  ├── services/ 
+  │ ├── preprocess.py # Preprocessing and transformation logic 
+  │ ├── churn_model.py # Training logic for ML models 
+  │ ├── evaluation.py # Model evaluation functions 
+  ├── notebooks/ # Jupyter notebooks for EDA & results 
+  ├── data_generator.py # Script to generate balanced synthetic data 
   ├── requirements.txt # List of dependencies 
   └── README.md # Project overview ``` </code></pre>
 ### How to Run
